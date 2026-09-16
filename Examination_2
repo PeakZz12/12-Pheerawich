@@ -7,5 +7,8 @@
 # ===================================================
 
 # เขียนโค้ดต่อจากนี้
-price = float(input())
-discount = float(input())
+price = float(input("ราคาสินค้าทั้งหมด: "))
+discount = float(input("ส่วนลด"))
+net_price = price - discount
+
+print("ราคาหลังหักส่วนลด: " , net_price {.2f})
