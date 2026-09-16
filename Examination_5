@@ -6,6 +6,10 @@
 # ==========================================
 
 # เขียนโค้ดต่อจากนี้
-quantity = int(input())
+quantity = int(input("จำนวนที่ซื้อ: "))
+total_price = quantity*20
 
-
+if quantity >= 5:
+    print("ราคารวม: " ,total_price - 10)
+else:
+    print("ราคารวม: " ,total_price)
